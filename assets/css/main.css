@@ -1306,28 +1306,28 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/anunay-rai-Ic5JpfkYZKg-unsplash-blur.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+  }
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: #666A86;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1366,7 +1366,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: #333333;
 	}
 
 	h1 {
@@ -1466,7 +1466,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #363636;
+		color: #333333;
 		margin: 0 0 1em 0;
 	}
 
@@ -1502,19 +1502,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #999;
+		color: #666A86;
 	}
 
 	form :-moz-placeholder {
-		color: #999;
+		color: #666A86;
 	}
 
 	form ::-moz-placeholder {
-		color: #999;
+		color: #666A86;
 	}
 
 	form :-ms-input-placeholder {
-		color: #999;
+		color: #666A86;
 	}
 
 /* Section/Article */
@@ -1533,7 +1533,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #666A86;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1594,7 +1594,7 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #333333;
 		color: #ffffff;
 		border: 0;
 		cursor: pointer;
@@ -1615,7 +1615,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #444444;
+			background-color: #333333;
 		}
 
 		input[type="button"].alt,
@@ -2143,8 +2143,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: rgba(214, 255, 246);
 		text-align: center;
+    text-shadow: #95B8D1 1px 0 10px;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
 	}
