@@ -1379,8 +1379,13 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h3, h4, h5, h6 {
-		font-size: 1.25em;
+  h3 {
+    font-size: 1.25em;
+		letter-spacing: -0.015em;
+  }
+
+	h4, h5, h6 {
+		font-size: 1em;
 		letter-spacing: -0.015em;
 	}
 
@@ -1966,6 +1971,10 @@ input, select, textarea {
       color: #ffb703;
       font-weight: bolder;
       text-decoration: none;
+    }
+
+    #main section img {
+      width: 100%;
     }
 
 		#main > .panel {
