@@ -1755,12 +1755,12 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-    .icon.solid.fa-project-diagram {
+    /* .icon.solid.fa-project-diagram {
       color: rgba(255, 255, 255, 0) !important;
       background-image: url("images/firefly-icon.png");
       background-size: contain;
       background-repeat: no-repeat;
-    }
+    } */
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
