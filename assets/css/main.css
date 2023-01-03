@@ -1962,6 +1962,12 @@ input, select, textarea {
 		transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 	}
 
+    #main a {
+      color: #ffb703;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+
 		#main > .panel {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
@@ -2102,9 +2108,14 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-					#main > .panel.intro header p {
+          #main > .panel.intro header h2 {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
+						margin: 0.25em 0 0 0;          }
+
+					#main > .panel.intro header p {
+						/* letter-spacing: -0.015em; */
+						/* font-size: 1.25em; */
 						margin: 0.25em 0 0 0;
 					}
 
