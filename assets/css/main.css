@@ -1977,6 +1977,11 @@ input, select, textarea {
       width: 100%;
     }
 
+    #main iframe {
+      width: 100%;
+      height: fit-content;
+    }
+
 		#main > .panel {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
