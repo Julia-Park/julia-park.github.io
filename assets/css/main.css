@@ -1968,6 +1968,12 @@ input, select, textarea {
 	}
 
     #main a {
+      color: #333333;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+
+    #main a:hover {
       color: #ffb703;
       font-weight: bolder;
       text-decoration: none;
