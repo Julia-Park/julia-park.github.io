@@ -1969,6 +1969,10 @@ input, select, textarea {
 
     #main a {
       color: #333333;
+      -moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+			-ms-transition: color .25s ease-in-out;
+			transition: color .25s ease-in-out;
       font-weight: bolder;
       text-decoration: none;
     }
@@ -1981,11 +1985,6 @@ input, select, textarea {
 
     #main section img {
       width: 100%;
-    }
-
-    #main iframe {
-      width: 100%;
-      height: fit-content;
     }
 
 		#main > .panel {
@@ -2200,13 +2199,19 @@ input, select, textarea {
 			#footer a:hover {
 				color: white;
 			}
+    
+    #footer .contact {
+      list-style: none;
+			padding-left: 0;
+      margin-bottom: 0;
+    }
 
 		#footer .copyright {
 			list-style: none;
 			padding-left: 0;
 		}
 
-			#footer .copyright li {
+			#footer li {
 				display: inline-block;
 				padding-left: 1em;
 				margin-left: 1em;
@@ -2214,7 +2219,7 @@ input, select, textarea {
 				line-height: 1;
 			}
 
-				#footer .copyright li:first-child {
+				#footer li:first-child {
 					padding-left: 0;
 					margin-left: 0;
 					border-left: 0;
@@ -2222,7 +2227,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#footer .copyright li {
+			#footer li {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
 			}
